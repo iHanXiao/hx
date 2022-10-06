@@ -1,0 +1,41 @@
+Form{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 55, 54);
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+
+.box{
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    background-color: rgb(162, 190, 230);  
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+.box>p{
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+label> .ant-form-item-label > label{
+    color: rgb(rgb(249, 249, 249), green, blue);
+}
+.ant-form-item-required{
+    font-size: 20px;
+    /* color: #fff; */
+}
+
+.ant-btn{
+    margin-left: 10px;
+}
